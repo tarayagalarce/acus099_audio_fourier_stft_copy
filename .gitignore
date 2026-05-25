@@ -1,0 +1,54 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+# Jupyter Notebook
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# Conda / virtual environments
+# ============================
+.env
+.venv
+env/
+venv/
+*.egg-info/
+
+# ============================
+# Operating system files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Audio files - NO subir pistas originales
+# Mantiene la carpeta data/audio_tracks/ con .gitkeep
+# ============================
+data/audio_tracks/*
+!data/audio_tracks/.gitkeep
+
+# ============================
+# Audio outputs - NO subir mezclas ni audios generados
+# Mantiene la carpeta outputs/audio/ con .gitkeep
+# ============================
+outputs/audio/*
+!outputs/audio/.gitkeep
+
+# ============================
+# Generated figures
+# Mantiene la carpeta outputs/figures/ con .gitkeep
+# ============================
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+# ============================
+# Temporary files
+# ============================
+*.tmp
+*.log
